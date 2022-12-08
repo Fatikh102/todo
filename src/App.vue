@@ -1,7 +1,4 @@
 <template>
-  <!-- <nav>
-    <router-link to="/">Home</router-link> 
-  </nav> -->
   <router-view />
 </template>
 
@@ -10,5 +7,8 @@ export default {}
 </script>
 
 <style lang="scss">
+#app {
+  margin: 40px auto;
+}
 @import '~materialize-css/dist/css/materialize.min.css';
 </style>
